@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIGIERIA CUISINE</title>
     <head>
-        <meta charset="UTF-8">
-        <title>RGU Homepage</title>
-    </head>
-    <body>
-        <header>
-            <div id="quicklink">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">RGYou</a></li>
-                    <li><a href="#">AtoZ</a></li>
-                </ul>
-            </div>
-            <img id="rgu_logo" src="robert gordonlog.jpeg" alt="Robert Gordon Universty">
-            <div id="searchbox">
-                <form>
-                    <p>search</p>
-                    <input type="text" name="searchfield">
-                    <input type="submit" value="GO">
-                </form>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">area of study</a></li>
-                    <li><a href="#">....</a></li>
-                    <li><a href="#">contract</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-        
-        </main>
-    </body>
+        <style>
+        #nigeriacuisine {
+          
+          color: blue;
+          text-align: Side;
+        } 
+        </style>
+</head>
+<body>
+    <header>
+        <div id="quicklnk">
+            <li><a herf="#">HOME</a></li>
+            <li><a herf="#">LOGIN</a></li>
+            <li><a herf="#">SIGNIN</a></li>
+        </div>
+        <img id="nigeria cuisine" src="Photo_1615302936357.jpg (1)" alt="NIGERIA CUISINE" width="200" height="100" >
+    </header>
+    <form action="action_page.php">
+        <div class="container">
+          <h3>Sign Up</h3>
+          <p>Please create an account.</p>
+          <hr>
+
+          <label for="fname"><b>First name</b></label>
+          <input type="text" placeholder="fname" name="fname" required>
+          <label for="lname"><b>Last name</b></label>
+          <input type="text" placeholder="lname" name="lname" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating this account you agree to the <a href="#" style="color:rebeccapurple">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+</body>
 </html>
